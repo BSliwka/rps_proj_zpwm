@@ -1,0 +1,167 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "res.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish (Poland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "res.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "paper.bmp"
+
+IDB_BITMAP2             BITMAP                  "rock.bmp"
+
+IDB_BITMAP3             BITMAP                  "scissors.bmp"
+
+IDB_BITMAP4             BITMAP                  "blank.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "menu"
+    BEGIN
+        MENUITEM "restart",                     ID_MENU_RESTART
+    END
+END
+
+#endif    // Polish (Poland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINVIEW DIALOGEX 0, 0, 297, 188
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Rock Paper Scissors"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    CTEXT           "Ty: 0",IDC_STATIC1,205,52,44,10
+    CTEXT           "Komputer: 0",IDC_STATIC2,188,66,77,8
+    PUSHBUTTON      "Kamien",IDC_BUTTON1,19,79,50,14
+    PUSHBUTTON      "Papier",IDC_BUTTON2,74,79,50,14
+    PUSHBUTTON      "Nozyce",IDC_BUTTON3,128,79,50,14
+    LTEXT           "Twój wybór:",IDC_STATIC,75,14,41,8
+    LTEXT           "Wybór komputera:",IDC_STATIC,67,104,61,8
+    LTEXT           "Wynik:",IDC_STATIC,215,38,23,8
+    CTEXT           "...",IDC_STATIC6,77,168,41,8
+    CONTROL         IDB_BITMAP1,IDC_STATIC,"Static",SS_BITMAP,73,30,50,46,WS_EX_ACCEPTFILES
+    CONTROL         IDB_BITMAP2,IDC_STATIC,"Static",SS_BITMAP,18,30,50,46
+    CONTROL         IDB_BITMAP3,IDC_STATIC,"Static",SS_BITMAP,129,30,50,46
+    CONTROL         IDB_BITMAP4,IDC_PIC,"Static",SS_BITMAP,73,118,50,46,WS_EX_ACCEPTFILES
+    CTEXT           "Start gry - dokonaj pierwszego wyboru!",IDC_ST,148,136,142,22
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MAINVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 290
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_MAINVIEW AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
